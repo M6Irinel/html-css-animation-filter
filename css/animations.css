@@ -90,14 +90,31 @@
 
 /* ESERCIZIO 10 */
 .ex-10-icon {
-    animation: rotazione_Completa 1s reverse linear infinite;
+    animation: rotation_Complete 1s reverse linear infinite;
 }
 
-@keyframes rotazione_Completa {
+@keyframes rotation_Complete {
     0% {
         transform: rotate(0);
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+/* ESERCIZIO 11 */
+.ex-11-icon:hover {
+    animation: animation_11 1.8s linear;
+}
+
+@keyframes animation_11 {
+    0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
