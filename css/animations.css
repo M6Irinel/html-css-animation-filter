@@ -75,3 +75,15 @@
     filter: saturate(0.3) contrast(1) sepia(0.3) brightness(1);
     border-radius: 20px;
 }
+
+/* ESERCIZIO 9 */
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    margin: 0;
+    width: 600px;
+    border-radius: 30px;
+    filter: grayscale(0.5) sepia(0.5);
+}
