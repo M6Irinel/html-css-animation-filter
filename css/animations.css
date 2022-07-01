@@ -34,3 +34,20 @@
 .ex-4-square:hover {
     filter: opacity(0);
 }
+
+/* ESERCIZIO 5 */
+.ex-5-square {
+    transition: all 1s;
+}
+
+.ex-5-square:hover {
+    margin: -10px;
+    height: 120px;
+    width: 120px;
+}
+
+.ex-5-square:active {
+    margin: 35px;
+    height: 30px;
+    width: 30px;
+}
